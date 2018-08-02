@@ -13,11 +13,8 @@ body {
 }
 
 .header {
-    height: 40;
     width: 960px;
     margin: auto;
-    margin-top:0;
-    margin-bottom: 0;
     }
 
 .fixed {
@@ -58,6 +55,14 @@ body {
     margin: auto;
     background: white;
     height: 600px;
+}
+
+.footer {
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    border: 1px, solid, rgb(37, 165, 165);
 }
 
 .main-bio{
