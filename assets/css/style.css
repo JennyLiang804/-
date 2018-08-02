@@ -1,11 +1,11 @@
 body {
     margin:0;
-    background-image: url("../images/background.png.png");
-    background-repeat: repeat;
+    background-image: url("../images/dreamy-cloud.jpg");
+    background-size: 100%;
 }
 
 .title-bar {
-    padding: 13px;
+    padding: 12px;
     margin-bottom: 20px;
     height: 40px;
     border: 1px solid #eee;
@@ -28,9 +28,9 @@ body {
     padding: 18px;
     height: 100%;
     margin-top: -20px;
-    color: #eee;
+    color: white;
     text-align: center;
-    background: rgb(37, 165, 165);
+    background: rgb(194, 186, 225);
   }
 
 .main-nav {
@@ -57,12 +57,20 @@ body {
     height: 600px;
 }
 
+.foot-hr {
+    border:0;
+    width:80%;
+    color:rgb(194, 186, 225);
+    height:5px;
+}
+
 .footer {
     background: grey;
     color: white;
     text-align: center;
-    padding: 13px;
-    border: 1px, solid, rgb(37, 165, 165);
+    padding: 10px;
+    margin-top: 143px;
+    border-top: 8px solid rgb(194, 186, 225);
 }
 
 .main-bio{
@@ -78,7 +86,7 @@ hr{
 }
 
 h2{
-    color: rgb(37, 165, 165);
+    color: rgb(194, 186, 225);
 }
 
 .content{
@@ -97,33 +105,77 @@ input[type=text], select{
 
 imput[type=submit] {
     width: 100%;
-    background-color: rgb(37, 165, 165);
+    background-color: rgb(194, 186, 225);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px, solid, rgb(194, 186, 225);
     cursor: pointer;
     border-radius: 4px;
 }
 
 .gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left
     ;
     width: 180px;
 }
 
-.gallery:hover {
-    border: 1px solid #777;
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 .gallery img {
     width: 100%;
     height: auto;
 }
-
-.desc {
-    padding: 15px;
+.winter-mountain {
+    float: center;
+    padding: 18px;
+    height: 100%;
+    margin-top: -20px;
+    color: white;
     text-align: center;
+    background: rgb(194, 186, 225);
+  }
+
+.elk-pink {
+    float: center;
+    padding: 18px;
+    height: 100%;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    background: rgb(194, 186, 225);
+  }
+
+.elk-snow {
+   float: center;
+   padding: 18px;
+   height: 100%;
+   margin-top: -20px;
+   color: white;
+   text-align: center;
+   background: rgb(194, 186, 225);
+  }
+
+.snow-mountain {
+    float: center;
+    padding: 18px;
+    height: 100%;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    background: rgb(194, 186, 225);
+  }
+
+.mountain-peak {
+    float: center;
+    padding: 18px;
+    height: 100%;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    background: rgb(194, 186, 225);
 }
