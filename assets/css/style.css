@@ -86,12 +86,13 @@ hr{
 }
 
 h2{
-    color: rgb(194, 186, 225);
+    color: rgb(144, 120, 240);
 }
 
 .content{
     float: left;
     color: grey;
+    font-size: 21px;
 }
 
 input[type=text], select{
@@ -134,7 +135,7 @@ imput[type=submit] {
     float: center;
     padding: 18px;
     height: 100%;
-    margin-top: -20px;
+    margin-top: -45px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -144,7 +145,7 @@ imput[type=submit] {
     float: center;
     padding: 18px;
     height: 100%;
-    margin-top: -20px;
+    margin-top: -45px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -154,8 +155,8 @@ imput[type=submit] {
    float: center;
    padding: 18px;
    height: 100%;
-   margin-top: -20px;
-   color: white;
+   margin-top: -45px;
+   color: rgb(144, 120, 240);
    text-align: center;
    background: rgb(194, 186, 225);
   }
@@ -164,7 +165,7 @@ imput[type=submit] {
     float: center;
     padding: 18px;
     height: 100%;
-    margin-top: -20px;
+    margin-top: -45px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -174,7 +175,7 @@ imput[type=submit] {
     float: center;
     padding: 18px;
     height: 100%;
-    margin-top: -20px;
+    margin-top: -45px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
